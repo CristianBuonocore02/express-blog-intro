@@ -10,31 +10,31 @@ const posts = [
     {
         titolo: 1,
         contenuto: "ciambellone",
-        immagine: "public/img/ciambellone.jpeg",
+        immagine: "/img/ciambellone.jpeg",
 
     },
     {
         titolo: 2,
         contenuto: "panefritto",
-        immagine: "public/img/panefritto_dolce.jpg",
+        immagine: "/img/panefritto_dolce.jpg",
 
     },
     {
         titolo: 3,
         contenuto: "cracker",
-        immagine: "public/img/cracker_barbabietola.jpeg",
+        immagine: "/img/cracker_barbabietola.jpeg",
 
     },
     {
         titolo: 4,
         contenuto: "pasta con barbabietole",
-        immagine: "public/img/pasta_barbabietola.jpeg",
+        immagine: "/img/pasta_barbabietola.jpeg",
 
     },
     {
         titolo: 5,
         contenuto: "Oggi ho imparato a usare Express",
-        immagine: "public/img/torta_paesana.jpeg",
+        immagine: "/img/torta_paesana.jpeg",
 
     }
 ];
