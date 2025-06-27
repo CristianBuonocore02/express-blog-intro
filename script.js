@@ -8,22 +8,34 @@ app.use(express.static('public'));
 // Array 
 const posts = [
     {
-        titolo: "Il mio primo post",
-        contenuto: "Questo è il contenuto del primo post",
+        titolo: 1,
+        contenuto: "ciambellone",
         immagine: "/img/ciambellone.jpeg",
-        tags: ["inizio", "blog"]
+
     },
     {
-        titolo: "Secondo post",
-        contenuto: "Un altro giorno, un altro post",
-        immagine: "/img/pic2.jpg",
-        tags: ["vita", "giornata"]
+        titolo: 2,
+        contenuto: "panefritto",
+        immagine: "/img/panefritto_dolce.jpg",
+
     },
     {
-        titolo: "Post tecnico",
+        titolo: 3,
+        contenuto: "cracker",
+        immagine: "/img/cracker_barbabietola.jpeg",
+
+    },
+    {
+        titolo: 4,
+        contenuto: "pasta con barbabietole",
+        immagine: "/img/pasta_barbabietola.jpeg",
+
+    },
+    {
+        titolo: 5,
         contenuto: "Oggi ho imparato a usare Express",
-        immagine: "/images/pic3.jpg",
-        tags: ["express", "node"]
+        immagine: "/img/torta_paesana.jpeg",
+
     }
 ];
 
